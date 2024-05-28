@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #f3ecec9d;
+    width: 800px;
+    margin: 150px 550px;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: rgba(62, 62, 235, 0.774);
+    font-size: 45px;
+    font-style: italic;
+}
+form{
+    background-color: #e0d9d96b;
+    padding: 10px;
+    border-radius: 5px;
+}
+.txtInputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.input-info{
+    margin: 10px;
+    color: rgba(62, 62, 235, 0.774);
+}
+.input-info label{
+    font-size: 25px;
+    font-weight: bold;
+}
+.input-info input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgba(62, 62, 235, 0.774);
+    margin-top: 10px;
+    outline: none;
+}
+.input-info input:focus{
+    /* box-shadow: 0px 3px 15px 1px rgba(62, 62, 235, 0.774); */
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.25), 
+    inset 2px 2px 5px rgba(62, 62, 235, 0.774), 
+    inset -3px -3px 5px rgba(62, 62, 235, 0.774);
+}
+[type=number], input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="button"], input[type="reset"]{
+    background-color: rgba(62, 62, 235, 0.774);
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(62, 62, 235, 0.774);
+    margin: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+input[type="button"]:hover, input[type="reset"]:hover{
+    background-color: #fff;
+    color: rgba(62, 62, 235, 0.774);
+}
+.age{
+    font-size: 30px;
+    color: rgba(62, 62, 235, 0.774);
+    padding: 20px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
